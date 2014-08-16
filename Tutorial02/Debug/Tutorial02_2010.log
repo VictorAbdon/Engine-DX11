@@ -1,0 +1,31 @@
+﻿Compilación iniciada a las 10/08/2014 01:14:12 p.m..
+     1>Proyecto "C:\Users\victor\Documents\GitHub\Engine-DX11\Tutorial02\Tutorial02_2010.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\Tutorial02.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\DXUT\Core /I..\..\..\DXUT\Optional /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D D3DXFX_LARGEADDRESS_HANDLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Tutorial02.cpp  
+         Tutorial02.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Tutorial02.res" Tutorial02.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Tutorial02.exe.embed.manifest.res" Debug\Tutorial02_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\victor\Documents\GitHub\Engine-DX11\Tutorial02\Debug\Tutorial02.exe" /INCREMENTAL /NOLOGO d3d10.lib d3dx10d.lib d3dx9d.lib dxerr.lib dxguid.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Tutorial02.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\victor\Documents\GitHub\Engine-DX11\Tutorial02\Debug\Tutorial02.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\victor\Documents\GitHub\Engine-DX11\Tutorial02\Debug\Tutorial02.lib" /MACHINE:X86 Debug\Tutorial02.res
+         Debug\Tutorial02.exe.embed.manifest.res
+         Debug\Tutorial02.obj  
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Tutorial02.exe.embed.manifest" /manifest Debug\Tutorial02.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Tutorial02.exe.embed.manifest.res" Debug\Tutorial02_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\victor\Documents\GitHub\Engine-DX11\Tutorial02\Debug\Tutorial02.exe" /INCREMENTAL /NOLOGO d3d10.lib d3dx10d.lib d3dx9d.lib dxerr.lib dxguid.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Tutorial02.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\victor\Documents\GitHub\Engine-DX11\Tutorial02\Debug\Tutorial02.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\victor\Documents\GitHub\Engine-DX11\Tutorial02\Debug\Tutorial02.lib" /MACHINE:X86 Debug\Tutorial02.res
+         Debug\Tutorial02.exe.embed.manifest.res
+         Debug\Tutorial02.obj  
+         Tutorial02_2010.vcxproj -> C:\Users\victor\Documents\GitHub\Engine-DX11\Tutorial02\Debug\Tutorial02.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\Tutorial02.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\Tutorial02.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\victor\Documents\GitHub\Engine-DX11\Tutorial02\Tutorial02_2010.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.60
